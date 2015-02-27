@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head lang="fr">
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<label for="first">Marque</label>
+	<select name="first" id="first" data-binded="second">
+		<option data-rel="acer" value="1">Acer</option>
+		<option data-rel="alcatel" value="2">Alcatel</option>
+		<option data-rel="amazon" value="3">Amazon</option>
+		<option data-rel="apple" value="4">Apple</option>
+		<option data-rel="archos" value="4">Archos</option>
+		<option data-rel="asus" value="4">Asus</option>
+	</select>
+	<label for="second">Modèle</label>
+	<select name="second" id="second" data-binded="third">
+		<optgroup data-name="acer" label="Acer">
+			<option data-rel="android" value="1.1">Allegro</option>
+			<option data-rel="android" value="1.2">beTouch 130</option>
+			<option data-rel="android" value="1.3">beTouch E210</option>
+			<option data-rel="android" value="1.4">Iconia Smart</option>
+			<option data-rel="android" value="1.5">Iconia Tab A100</option>
+			<option data-rel="android" value="1.6">Iconia Tab A500</option>
+			<option data-rel="android" value="1.7">Liquid E</option>
+			<option data-rel="android" value="1.8">Liquid E Ferrari Edition</option>
+			<option data-rel="android" value="1.9">Liquid Mini</option>
+			<option data-rel="android" value="1.9">Liquid Z3</option>
+			<option data-rel="android" value="1.9">neoTouch S200</option>
+			<option data-rel="android" value="1.9">Stream</option>
+		</optgroup>
+		<optgroup data-name="alcatel" label="Alcatel">
+			<option data-rel="android" value="2.1">One Touch 993</option>
+			<option data-rel="android" value="2.2">One Touch 995</option>
+			<option data-rel="android" value="2.3">One Touch C1</option>
+			<option data-rel="android" value="2.4">One Touch C3</option>
+			<option data-rel="android" value="2.5">One Touch C5</option>
+			<option data-rel="android" value="2.6">One Touch C7</option>
+			<option data-rel="android" value="2.7">One Touch Idol</option>
+			<option data-rel="android" value="2.8">ONETOUCH Evolve</option>
+			<option data-rel="android" value="2.9">ONETOUCH Fierce</option>
+			<option data-rel="android" value="2.9">OT-980</option>
+			<option data-rel="android" value="2.9">OT-990</option>
+		</optgroup>
+		<optgroup data-name="amazon" label="Amazon">
+			<option data-rel="android" value="3.1">Kindle Fire</option>
+			<option data-rel="android" value="3.2">Kindle Fire HD 4G LTE</option>
+			<option data-rel="android" value="3.3">Kindle Fire HD 7</option>
+			<option data-rel="android" value="3.4">Kindle Fire HD 8.9</option>
+			<option data-rel="android" value="3.5">Kindle Fire SD</option>
+		</optgroup>
+		<optgroup data-name="apple" label="Apple">
+			<option data-rel="ios" value="3.6">iPad</option>
+			<option data-rel="ios" value="3.6">iPad 2</option>
+			<option data-rel="ios" value="3.6">iPad 3</option>
+			<option data-rel="ios" value="3.6">iPad 4</option>
+			<option data-rel="ios" value="3.6">iPad Air</option>
+			<option data-rel="ios" value="3.6">iPad Air 2</option>
+			<option data-rel="ios" value="3.6">iPad mini</option>
+			<option data-rel="ios" value="3.6">iPad mini - model A1455</option>
+			<option data-rel="ios" value="3.6">iPad Mini 2 Retina</option>
+			<option data-rel="ios" value="3.6">iPad Mini 3</option>
+			<option data-rel="ios" value="3.6">iPhone</option>
+			<option data-rel="ios" value="3.6">iPhone 3G</option>
+			<option data-rel="ios" value="3.6">iPhone 3GS</option>
+			<option data-rel="ios" value="3.6">iPhone 4</option>
+			<option data-rel="ios" value="3.6">iPhone 4 Verizon</option>
+			<option data-rel="ios" value="3.6">iPhone 4S</option>
+			<option data-rel="ios" value="3.6">iPhone 5</option>
+			<option data-rel="ios" value="3.6">iPhone 5c</option>
+			<option data-rel="ios" value="3.6">iPhone 5s</option>
+			<option data-rel="ios" value="3.6">iPhone 6</option>
+			<option data-rel="ios" value="3.6">iPhone 6 Plus</option>
+			<option data-rel="ios" value="3.6">iPod touch 3</option>
+			<option data-rel="ios" value="3.6">iPod touch 4</option>
+			<option data-rel="ios" value="3.6">iPod touch 5</option>
+		</optgroup>
+		<optgroup data-name="archos" label="Archos">
+			<option data-rel="android" value="3.6">45 HELIUM</option>
+			<option data-rel="android" value="3.6">50 HELIUM</option>
+			<option data-rel="android" value="3.6">50c OXYGEN</option>
+		</optgroup>
+		<optgroup data-name="asus" label="Asus">
+			<option data-rel="android" value="3.6">Eee Pad Slider</option>
+			<option data-rel="android" value="3.6">Eee Pad Transformer</option>
+			<option data-rel="android" value="3.6">MeMO Pad 10</option>
+			<option data-rel="android" value="3.6">MeMO Pad Smart 10</option>
+			<option data-rel="android" value="3.6">Transformer AiO P1801</option>
+			<option data-rel="android" value="3.6">Transformer Book T100</option>
+		</optgroup>
+	</select>
+	<label for="third">OS</label>
+	<select name="third" id="third">
+		<optgroup data-name="android" label="Android">
+			<option value="1">Android 2.2</option>
+			<option value="2">Android 2.3</option>
+			<option value="3">Android 2.3.3</option>
+			<option value="4">Android 2.3.4</option>
+			<option value="5">Android 2.3.5</option>
+			<option value="6">Android 2.3.6</option>
+			<option value="7">Android 2.3.7</option>
+			<option value="8">Android 3.0</option>
+			<option value="9">Android 3.1</option>
+			<option value="10">Android 3.2</option>
+			<option value="11">Android 4</option>
+			<option value="12">Android 4.0</option>
+			<option value="13">Android 4.0.3</option>
+			<option value="14">Android 4.0.4</option>
+			<option value="15">Android 4.1</option>
+			<option value="16">Android 4.1.1</option>
+			<option value="17">Android 4.1.2</option>
+			<option value="18">Android 4.2</option>
+			<option value="19">Android 4.2.1</option>
+			<option value="20">Android 4.2.2</option>
+			<option value="21">Android 4.3</option>
+			<option value="22">Android 4.4</option>
+			<option value="23">Android 4.4.2</option>
+			<option value="24">Android 4.4.3</option>
+			<option value="25">Android 4.4.4</option>
+			<option value="26">Android 5.0</option>
+		</optgroup>
+		<optgroup data-name="ios" label="iOS">
+			<option value="01">iOS 4.3</option>
+			<option value="02">iOS 5</option>
+			<option value="03">iOS 5.1</option>
+			<option value="04">iOS 6</option>
+			<option value="05">iOS 7</option>
+			<option value="06">iOS 7.0.1</option>
+			<option value="07">iOS 7.0.2</option>
+			<option value="08">iOS 7.0.3</option>
+			<option value="09">iOS 7.0.4</option>
+			<option value="10">iOS 7.0.5</option>
+			<option value="11">iOS 7.0.6</option>
+			<option value="12">iOS 7.1</option>
+			<option value="13">iOS 7.1.1</option>
+			<option value="14">iOS 7.1.2</option>
+			<option value="15">iOS 8</option>
+			<option value="16">iOS 8.0</option>
+			<option value="17">iOS 8.0.1</option>
+			<option value="18">iOS 8.0.2</option>
+			<option value="19">iOS 8.1</option>
+			<option value="20">iOS 8.1.1</option>
+			<option value="21">iOS 8.1.2</option>
+			<option value="22">iOS 8.1.3</option>
+			<option value="23">iOS 8.2</option>
+		</optgroup>
+	</select>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript" src="js/selectBinder.js"></script>
+	<script>
+		$("select").TeraSelectBinder();
+	</script>
+</body>
+</html>
